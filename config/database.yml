@@ -27,6 +27,6 @@ test:
 
 production:
   <<: *prod
-  database: mysite_production
+  database: mysite_production_7hh4
   username: mysite
   password: <%= ENV['DATABASE_URL'] %>
